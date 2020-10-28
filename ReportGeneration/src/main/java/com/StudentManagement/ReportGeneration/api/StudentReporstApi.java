@@ -29,7 +29,7 @@ public interface StudentReporstApi {
 	/**
 	 * generete report for student
 	 * 
-	 * @param StudentId
+	 * @param reportId
 	 * @return StudentReportDto
 	 */
 	@GetMapping("/{id}")
